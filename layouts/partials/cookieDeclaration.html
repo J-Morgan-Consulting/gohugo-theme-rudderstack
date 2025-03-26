@@ -1,0 +1,79 @@
+<!-- Consent Modal -->
+<div class="container mt-3">
+    <form id="theCookieJarDeclarationForm">
+        <div class="">
+            <p class="h4 modal-title text-black disabled">Your Current Cookie Settings</p>
+        </div>
+        <div class="text-black">
+            <p class="text-black text-xs">
+                Welcome! We’re glad you’re here and want you to know that we respect your privacy and your right to control how we collect, use, and share your personal data. Listed below are your current cookie settings and the purposes for which we process your data–please indicate whether you consent to such processing.
+            </p>
+            <p class="h6 fw-500">Cookies We Use</p>
+            <div class="accordion-primary accordion accordion-flush" id="accordionFlushConsent">
+                <div class="accordion-item border-bottom bg-white">
+                    <div class="accordion-header d-flex align-items-center" id="flush-AnalyticsConsent">
+                        <div style="font-size: medium; outline: 0 !important; box-shadow: 0 0 0 0 rgba(0, 0, 0, 0) !important;" class="accordion-button collapsed fw-500 no-caret ms-0 me-2 ps-0 bg-white text-black" type="button" data-bs-toggle="collapse" data-bs-target="#flush-AnalyticsConsentContent" aria-expanded="false" aria-controls="flush-AnalyticsConsentContent">
+                            Analytics
+                        </div>
+                        <div class="ms-auto form-check form-switch">
+                            <input class="form-check-input toggle-switch" type="checkbox" role="switch" id="analytics_storage" value="granted" checked onchange="this.value=this.checked?'granted':'denied';">
+                        </div>
+                    </div>
+                    <div id="flush-AnalyticsConsentContent" class="accordion-collapse collapse" aria-labelledby="flush-AnalyticsConsent" data-bs-parent="#accordionFlushConsent">
+                        <div class="">
+                            <p class="text-xs text-black">
+                                Analytics is essential for helping us improve our website and your experience with it. Analytics cookies are used to understand user interactions on our website and are not used for targeting in advertising.
+                            </p>
+                        </div>
+                    </div>
+                </div>
+                <div class="accordion-item border-bottom bg-white">
+                    <div class="accordion-header d-flex align-items-center" id="flush-AdvertisingConsent">
+                        <div style="font-size: medium; outline: 0 !important; box-shadow: 0 0 0 0 rgba(0, 0, 0, 0) !important;" class="accordion-button collapsed fw-500 no-caret ms-0 me-2 ps-0 bg-white text-black" type="button" data-bs-toggle="collapse" data-bs-target="#flush-AdvertisingConsentContent" aria-expanded="false" aria-controls="flush-AdvertisingConsentContent">
+                            Advertising
+                        </div>
+                        <div class="ms-auto form-check form-switch">
+                            <input class="form-check-input toggle-switch" type="checkbox" role="switch" id="ad_storage" value="granted" checked onchange="this.value=this.checked?'granted':'denied';">
+                        </div>
+                    </div>
+                    <div id="flush-AdvertisingConsentContent" class="accordion-collapse collapse" aria-labelledby="flush-AdvertisingConsent" data-bs-parent="#accordionFlushConsent">
+                        <div class="">
+                            <p class="text-xs text-black">
+                                We use advertising cookies to ensure that our advertising is relevant to you and give you the best experience possible.
+                            </p>
+                        </div>
+                    </div>
+                </div>
+                <div class="accordion-item border-bottom bg-white">
+                    <div class="accordion-header d-flex align-items-center" id="flush-EssentialConsent">
+                        <div style="font-size: medium; outline: 0 !important; box-shadow: 0 0 0 0 rgba(0, 0, 0, 0) !important;" class="accordion-button collapsed fw-500 no-caret ms-0 me-2 ps-0 bg-white text-black" type="button" data-bs-toggle="collapse" data-bs-target="#flush-EssentialConsentContent" aria-expanded="false" aria-controls="flush-EssentialConsentContent">
+                            Essential Cookies
+                        </div>
+                        <div class="ms-auto form-check form-switch">
+                            <input class="form-check-input toggle-switch" type="checkbox" role="switch" id="functionality_storage" value="granted" disabled checked>
+                        </div>
+                    </div>
+                    <div id="flush-EssentialConsentContent" class="accordion-collapse collapse" aria-labelledby="flush-EssentialConsent" data-bs-parent="#accordionFlushConsent">
+                        <div class="">
+                            <p class="text-xs text-black">
+                                Collection and processing of personal data to enable functionality that is essential to providing our services, including security activities, debugging, authentication, and fraud prevention, as well as contacting you with information related to products/services you have used or purchased; we may set essential cookies or other trackers for these purposes.
+                            </p>
+                            <p class="text-xs fw-600 text-black">Legal Basis</p>
+                            <p class="text-xs text-black">Necessary for the purposes of the legitimate interests pursued by the controller or by a third party, except where such interests are overridden by the interests or fundamental rights and freedoms of the data subject</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="row pt-3 pb-5">
+            <div class="d-flex">
+                <a href="https://cookieconsentjar.com/en/" class="pt-2 me-auto">
+                    <small><span class="text-black me-1">Powered by</span></small>
+                    <img style="max-height: 12px;" src="https://cookieconsentjar.com/img/logo.webp" alt="Consent Manager Logo" class="" />
+                </a>
+                <input type="text" style="display: none;" autofocus>
+                <button type="submit" class="btn btn-black btn-sm fw-700 ms-auto">Save choices</button>
+            </div>
+        </div>
+    </form>
+</div>

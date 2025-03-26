@@ -1,0 +1,6 @@
+[rudderstack]
+writeKey = xxx
+endpoint = xxx
+[consent]
+orgId = xxx
+endpoint = xxx
