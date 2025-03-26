@@ -1,6 +1,6 @@
 [rudderstack]
-writeKey = xxx
-endpoint = xxx
+writeKey = "xxx"
+endpoint = "xxx"
 [consent]
-orgId = xxx
-endpoint = xxx
+orgId = "xxx"
+endpoint = "xxx"
