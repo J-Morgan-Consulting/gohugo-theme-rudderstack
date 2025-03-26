@@ -1,4 +1,4 @@
-{{ if isset .Site.Params "rudderstack.writeKey" }}
+{{ if and (.Site.Params.rudderstack) (isset .Site.Params.rudderstack "writeKey") }}
   <script type="text/javascript">
     !function(){"use strict";window.RudderSnippetVersion="3.0.60";var e="rudderanalytics";window[e]||(window[e]=[])
     ;var rudderanalytics=window[e];if(Array.isArray(rudderanalytics)){
